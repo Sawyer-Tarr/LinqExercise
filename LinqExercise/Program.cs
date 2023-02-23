@@ -23,10 +23,9 @@ namespace LinqExercise
 
             //TODO: Print the Sum of numbers
 
-            foreach (var item in numbers)
-            {
-                Console.WriteLine(item);
-            }
+            Console.WriteLine("Sum of Numbers:");
+            int sum = numbers.Sum();
+            Console.WriteLine(sum);
             Console.WriteLine("---------------------------------");
 
             //TODO: Print the Average of numbers
